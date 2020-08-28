@@ -1,6 +1,6 @@
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Clínica Topicos </b>CT</a>
+    <a href="#"><b>Clínica Virtual </b>CV</a>
   </div>
 
   <!-- /.login-logo -->

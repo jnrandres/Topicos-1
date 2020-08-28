@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Log in</title>
+  <title>Clinica virtual | Perú</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,6 +21,8 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
+  <link rel="stylesheet" href="vistas/css/estilos.css">
+
   <!-- PLUGINS DE JS -->
 
   <!-- jQuery -->
@@ -32,30 +34,30 @@
 
 </head>
 
-<body class="hold-transition login-page">
+<body class="hold-transition sidebar-mini layout-fixed sidebar-collapse ">
 
+  <div class="wrapper">
+  
+  <?php
+    //CABECERA DE LA WEB
+    require_once 'modulos/nav.php';
+    // BARRA LATERAL
+    require_once 'modulos/barra-lateral.php';
+  ?>
 
   <?php
 
-  if (isset($_GET['ruta'])) {
+    require_once 'modulos/inicio.php';
 
-    if (
-      $_GET['ruta'] == 'olvidePassword' ||
-      $_GET['ruta'] == 'registro' ||
-      $_GET['ruta'] == 'login'
-    ) {
-      require_once 'modulos/' . $_GET['ruta'] . '.php';
-    } else {
-      require_once 'modulos/404.php';
-    }
-  } else {
-
-    require_once 'modulos/login.php';
-  }
   ?>
 
+  <?php
+    // PIE DE PAGINA
+    require_once 'modulos/footer.php';
+  ?>
 
-
+</div>
+<!-- ./wrapper -->
 
 </body>
 

@@ -1,0 +1,29 @@
+.logo-nav {
+    display: block;
+    padding: 10px;
+    background: #6c757d;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* CARUSEL  */
+
+.carousel-item {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.item_1 {
+    background-image: url("../img/slide_1.jpg");
+}
+
+.item_2 {
+    background-image: url("../img/slide_2.jpg");
+}
+
+.item_3 {
+    background-image: url("../img/slide_3.jpg");
+}

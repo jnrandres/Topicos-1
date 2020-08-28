@@ -1,6 +1,6 @@
 <div class="register-box">
   <div class="register-logo">
-    <a href="#"><b>Clínica Topicos </b>CT</a>
+    <a href="#"><b>Clínica Virtual </b>CV</a>
   </div>
 
   <div class="card">
