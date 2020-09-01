@@ -27,3 +27,13 @@
 .item_3 {
     background-image: url("../img/slide_3.jpg");
 }
+
+.central-telefonica {
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(45deg, #0097D8, #0EB3D4);
+}
+
+.convenios {
+    background-color: #EDEDED;
+}
