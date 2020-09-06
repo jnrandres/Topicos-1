@@ -39,21 +39,21 @@
         <div class="row mb-4">
 
           <div class="col-4">
-            <a href="#" class="nav-link">
+            <a href="especialidad-oftalmologia" class="nav-link">
               <img src="vistas/img/especialidades/oftamologia.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Oftamlogia</span>
             </a>
           </div>
 
           <div class="col-4">
-            <a href="#" class="nav-link">
+            <a href="especialidad-ginecologia" class="nav-link">
               <img src="vistas/img/especialidades/ginecologia.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Ginecologia</span>
             </a>
           </div>
 
           <div class="col-4">
-            <a href="#" class="nav-link">
+            <a href="especialidad-otorrino" class="nav-link">
               <img src="vistas/img/especialidades/otorrino.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Otorrinolaringología</span>
             </a>
@@ -62,22 +62,22 @@
 
         <div class="row mt-4">
 
-          <div class="col-4 ">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/neurologia.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Neurologia</span>
+        <div class="col-4">
+            <a href="especialidad-cardiologia" class="nav-link">
+              <img src="vistas/img/especialidades/cardiologia.svg" class="mx-auto d-block" alt="">
+              <span class="d-block text-center">Cardiologia</span>
             </a>
           </div>
 
           <div class="col-4">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/urologia.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Urologia</span>
+            <a href="especialidad-gastroenterologia" class="nav-link">
+              <img src="vistas/img/especialidades/gastro.svg" class="mx-auto d-block" alt="">
+              <span class="d-block text-center">Gastroenterologia</span>
             </a>
           </div>
 
           <div class="col-4">
-            <a href="#" class="nav-link">
+            <a href="especialidad-oncologia" class="nav-link">
               <img src="vistas/img/especialidades/oncologia.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Oncologia</span>
             </a>
@@ -87,75 +87,28 @@
         <div class="row mt-4">
 
           <div class="col-4 ">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/hepatologia.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Hepatologia</span>
-            </a>
-          </div>
-
-          <div class="col-4">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/cardiologia.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Cardiologia</span>
-            </a>
-          </div>
-
-          <div class="col-4">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/gastro.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Gastroenterologia</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="row mt-4">
-
-          <div class="col-4 ">
-            <a href="#" class="nav-link">
+            <a href="especialidad-odontologia" class="nav-link">
               <img src="vistas/img/especialidades/odontologia.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Odontologia</span>
             </a>
           </div>
 
           <div class="col-4">
-            <a href="#" class="nav-link">
+            <a href="especialidad-pediatria" class="nav-link">
               <img src="vistas/img/especialidades/pediatria.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Pediatria</span>
             </a>
           </div>
 
-          <div class="col-4">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/obstetricia.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Obstetricia</span>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="row mt-4">
-
           <div class="col-4 ">
-            <a href="#" class="nav-link">
+            <a href="especialidad-traumatologia" class="nav-link">
               <img src="vistas/img/especialidades/traumatologia.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Traumatologia</span>
             </a>
           </div>
 
-          <div class="col-4">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/laboratorio.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Laboratorio</span>
-            </a>
-          </div>
-
-          <div class="col-4">
-            <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/covid.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Covid-19</span>
-            </a>
-          </div>
         </div>
+
 
 
       </div>
@@ -186,16 +139,16 @@
           Médicos de primer nivel y los tecnólogos médicos más especializados, forman parte del staff de Clínica Topicos I, han sido capacitados en las más modernas aplicaciones que existen en el sector salud.
         </div>
         <!-- /.card-body -->
-        <a href="#" class="btn btn-secondary">BUSCAR MEDICO</a>
+        <a href="buscaMedico" class="btn btn-secondary">BUSCAR MEDICO</a>
       </div>
       <!-- /.card -->
 
 
       <!-- RESERVA TU CITA -->
-      <a href="#" class="btn btn-primary m-4 d-block ">RESERVA TU CITA</a>
+      <a href="menuCitas" class="btn btn-primary m-4 d-block ">RESERVA TU CITA</a>
 
       <!-- MISION Y VISION -->
-      <div class="card bg-green ">
+      <div class="card bg-green " id="misionVison">
         <div class="card-header">
           <h3 class="card-title text-bold">MISION</h3>
         </div>
@@ -233,33 +186,47 @@
         <h2 class="text-primary text-center mb-4">Promociones</h2>
         <div class="row mt-4">
 
-          <div class="col-4 ">
+          <div class="col-12 ">
             <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/traumatologia.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Traumatologia</span>
+              <img src="vistas/img/promociones/promo_1.jpeg" class="mx-auto d-block img-fluid" alt="">
             </a>
           </div>
 
-          <div class="col-4">
+          <div class="col-12">
             <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/laboratorio.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Laboratorio</span>
+              <img src="vistas/img/promociones/promo_2.jpeg" class="mx-auto d-block img-fluid" alt="">
             </a>
           </div>
 
-          <div class="col-4">
+          <div class="col-12">
             <a href="#" class="nav-link">
-              <img src="vistas/img/especialidades/covid.svg" class="mx-auto d-block" alt="">
-              <span class="d-block text-center">Covid-19</span>
+              <img src="vistas/img/promociones/promo_3.jpeg" class="mx-auto d-block img-fluid" alt="">
             </a>
           </div>
+        </div>
+      </div>
+
+      <!-- NOTICIAS -->
+
+      <div class="container-fluid">
+        <h2 class="text-primary text-center mb-4">Noticias</h2>
+        <div class="row mt-4">
+
+          <div class="col-12 mt-2">
+              <img src="vistas/img/noticias/noticia_1.jpeg" class="mx-auto d-block img-fluid" alt="">
+          </div>
+
+          <div class="col-12 mt-2">
+              <img src="vistas/img/noticias/noticia_2.jpeg" class="mx-auto d-block img-fluid" alt="">
+          </div>
+
         </div>
       </div>
 
 
 
       <!-- NUESTRO CONVENIOS -->
-      <div class="card convenios">
+      <div class="card convenios mt-4">
         <div class="card-header border-0">
           <h3 class="card-title "><i class="fas fa-hands-helping"></i> Nuestros convenios</h3>
         </div>
@@ -270,11 +237,9 @@
               <img src="vistas/img/convenios/rimac.svg" class="mx-auto d-block" alt="">
             </div>
             <div class="col-6">
-              <img src="vistas/img/convenios/rimac.svg" class="mx-auto d-block" alt="">
+              <img src="vistas/img/convenios/pacifico.svg" class="mx-auto d-block" alt="">
             </div>
           </div>
-
-          <a href="#" class="btn btn-primary ">VER MAS CONVENIOS</a>
         </div>
       </div>
 

@@ -8,9 +8,9 @@
     <div class="card-body login-card-body">
       <p class="login-box-msg">Bienvenido</p>
 
-      <form action="#" method="post">
+      <form method="post">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Nro. Documento">
+          <input type="text" class="form-control" placeholder="Nro. Documento" name="ingDocumento" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-passport"></span>
@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Contraseña">
+          <input type="password" class="form-control" placeholder="Contraseña" name="ingPassword" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -33,6 +33,13 @@
           </div>
           <!-- /.col -->
         </div>
+
+        <?php
+        
+        $login = new ControladorUsuarios();
+        $login -> ctrIngresoUsuario();
+        ?>
+
       </form>
 
       <p class="mb-1 mt-3">

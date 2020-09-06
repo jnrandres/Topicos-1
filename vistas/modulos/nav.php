@@ -13,7 +13,7 @@
      </li>
    </ul>
 
-   <h3 class="navbar-nav ml-auto logo-nav">Clinica Virtual</h3>
+   <a href="inicio" class="navbar-nav ml-auto logo-nav">Clinica Virtual</a href="inicio">
 
  </nav>
  <!-- /.navbar -->

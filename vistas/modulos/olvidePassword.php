@@ -7,9 +7,9 @@
     <div class="card-body login-card-body">
       <p class="login-box-msg">¿Olvidaste tu contraseña? Aquí puede recuperar fácilmente una nueva contraseña.</p>
 
-      <form action="recover-password.html" method="post">
+      <form method="post">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Correo electrónico">
+          <input type="email" class="form-control" placeholder="Correo electrónico" name="olvideCorreo" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -18,10 +18,18 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block">Siguiente</button>
+            <button class="btn btn-primary btn-block">Enviar</button>
           </div>
           <!-- /.col -->
         </div>
+
+        <?php
+        
+        $olvidePassword = new ControladorUsuarios();
+        $olvidePassword -> olvidePassword();
+        
+        ?>
+
       </form>
 
       <p class="mt-3 mb-1">

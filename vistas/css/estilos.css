@@ -1,3 +1,40 @@
+.row {
+    margin: 0;
+}
+
+.titulo_citas {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #0D57E9;
+}
+
+.form-citas {
+    border-bottom: 1px solid #b2b2b2;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.form-citas div {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.btn-azul {
+    text-align: center;
+}
+
+.btn-azul button {
+    border: none;
+    color: #FFF;
+    background: blue;
+    border-radius: 15px;
+    width: 250px;
+    padding: 10px 0;
+}
+
 .logo-nav {
     display: block;
     padding: 10px;
@@ -36,4 +73,42 @@
 
 .convenios {
     background-color: #EDEDED;
+}
+
+
+/* BUSCA TU MEDICO */
+
+.select_citas {
+    border: none;
+    width: 100%;
+}
+
+.perfil_medico {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background: #d3d3d3;
+    display: flex;
+}
+
+.perfil_medico .i_l_b {
+    float: left;
+}
+
+.perfil_medico p {
+    margin-bottom: 0px;
+}
+
+.form-citas textarea {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-citas input {
+    border: none;
+    /* width: 100%; */
 }
