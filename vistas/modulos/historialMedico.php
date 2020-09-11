@@ -1,3 +1,16 @@
+<?php
+
+if (isset($_SESSION['iniciarSesion'])  && $_SESSION['iniciarSesion'] == 'ok') {
+  
+}else{
+  echo '<script>
+  window.location = "registro";
+  </script>';
+  return;
+}
+
+?>
+
 <!-- Main content -->
 <section class="content">
 
@@ -8,7 +21,7 @@
     <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch mt-3">
       <div class="card bg-light">
         <div class="card-header  border-bottom-0">
-          <h2 class="text-primary text-center mb-4">Historial Médico</h2>
+          <h2 class="text-primary text-center mb-4">Ultima cita</h2>
         </div>
         <div class="card-body pt-0">
           <div class="row">
@@ -34,10 +47,13 @@
           <hr>
           <div class="row">
 
+            <?php
+            $ultimo = count($historial);
+            ?>
             <div class="col-12 pl-3">
-              <p class="text-muted text-sm"><b>SINTOMAS: </b> <?= $historial['sintomas'] ?> </p>
-              <p class="text-muted text-sm"><b>EXAMENES: </b> <?= $historial['examenes'] ?> </p>
-              <p class="text-muted text-sm"><b>OPERACIONES: </b> <?= $historial['operaciones'] ?> </p>
+              <p class="text-muted text-sm"><b>SINTOMAS: </b> <?= $historial[$ultimo-1]['sintomas'] ?> </p>
+              <p class="text-muted text-sm"><b>EXAMENES: </b> <?= $historial[$ultimo-1]['examenes'] ?> </p>
+              <p class="text-muted text-sm"><b>OPERACIONES: </b> <?= $historial[$ultimo-1]['operaciones'] ?> </p>
             </div>
 
           </div>

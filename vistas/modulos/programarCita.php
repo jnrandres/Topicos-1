@@ -1,4 +1,17 @@
-  <!-- Main content -->
+<?php
+
+if (isset($_SESSION['iniciarSesion'])  && $_SESSION['iniciarSesion'] == 'ok') {
+  
+}else{
+  echo '<script>
+  window.location = "registro";
+  </script>';
+  return;
+}
+
+?>
+
+<!-- Main content -->
   <section class="content-citas">
 
     <div class="row mt-4">

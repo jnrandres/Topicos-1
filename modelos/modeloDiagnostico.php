@@ -31,7 +31,7 @@ class ModeloDiagnostico {
             $stmt = Conexion::conectar()->prepare($sql);
             $stmt->bindParam( ":".$item, $valor, PDO::PARAM_STR);
             $stmt->execute();
-            return $stmt->fetch(); // Retorna solo una linea de la tabla
+            return $stmt->fetchAll(); // Retorna solo una linea de la tabla
 
         }else{
 

@@ -14,12 +14,26 @@
 
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item item_1 active">
-
+          <div class="carousel-item  active">
+            <img class="d-block w-100 item" src="vistas/img/slide_1.jpg" alt="">
+            <div class="carousel-caption d-md-block">
+              <h2 class="text-bold text-primary ">Juntos cuidamos vidas</h2>
+              <p class="contenido">Atención online, Receta Médica,Envío de medicamentos por delivery</p>
+            </div>
           </div>
-          <div class="carousel-item item_2">
+          <div class="carousel-item ">
+            <img class="d-block w-100 h-100 item" src="vistas/img/slide_2_1.jpg" alt="">
+            <div class="carousel-caption d-md-block">
+              <h2 class="text-bold text-primary ">Estamos para cuidar su salud y la de su familia </h2>
+              <p class="contenido">Reforzamos nuestros protocolos de bioseguridad para el cuidado de nuestros pacientes</p>
+            </div>
           </div>
-          <div class="carousel-item item_3">
+          <div class="carousel-item ">
+            <img class="d-block w-100 h-100 item" src="vistas/img/slide_3_2.jpg" alt="">
+            <div class="carousel-caption d-md-block">
+              <h2 class="text-bold text-primary ">Comprometidos en ofrecer la mejor salud</h2>
+              <p class="contenido">Envía un mensaje de aliento y ánimo a los que nos ayudan a enfrentar el COVID-19</p>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -62,7 +76,7 @@
 
         <div class="row mt-4">
 
-        <div class="col-4">
+          <div class="col-4">
             <a href="especialidad-cardiologia" class="nav-link">
               <img src="vistas/img/especialidades/cardiologia.svg" class="mx-auto d-block" alt="">
               <span class="d-block text-center">Cardiologia</span>
@@ -213,11 +227,11 @@
         <div class="row mt-4">
 
           <div class="col-12 mt-2">
-              <img src="vistas/img/noticias/noticia_1.jpeg" class="mx-auto d-block img-fluid" alt="">
+            <img src="vistas/img/noticias/noticia_1.jpeg" class="mx-auto d-block img-fluid" alt="">
           </div>
 
           <div class="col-12 mt-2">
-              <img src="vistas/img/noticias/noticia_2.jpeg" class="mx-auto d-block img-fluid" alt="">
+            <img src="vistas/img/noticias/noticia_2.jpeg" class="mx-auto d-block img-fluid" alt="">
           </div>
 
         </div>

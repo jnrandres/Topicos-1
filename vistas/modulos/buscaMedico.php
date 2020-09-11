@@ -28,9 +28,9 @@
         <p style="color: #0D57E9">Resultados:<p>
       </div>
 
-      <div class="conatiner-fluid" id="perfiles">
+      <div class="card-body pb-0" id="perfiles">
 
-
+        
       </div>
 
 

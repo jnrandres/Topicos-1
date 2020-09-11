@@ -53,16 +53,8 @@
     background-position: 50% 50%;
 }
 
-.item_1 {
-    background-image: url("../img/slide_1.jpg");
-}
-
-.item_2 {
-    background-image: url("../img/slide_2.jpg");
-}
-
-.item_3 {
-    background-image: url("../img/slide_3.jpg");
+.item {
+    filter: blur(3px);
 }
 
 .central-telefonica {
@@ -75,6 +67,9 @@
     background-color: #EDEDED;
 }
 
+.contenido{
+    font-size: 19px;
+}
 
 /* BUSCA TU MEDICO */
 

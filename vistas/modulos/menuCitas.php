@@ -17,7 +17,7 @@ if (isset($_SESSION['iniciarSesion'])  && $_SESSION['iniciarSesion'] == 'ok') {
 <section class="content-citas">
 
 
-  <div class="row mt-2">
+  <!-- <div class="row mt-2">
     <div class="col-12 mb-4">
       <div class="btn-azul mt-4">
         <a href="programarCita">Programar citas</a>
@@ -29,7 +29,15 @@ if (isset($_SESSION['iniciarSesion'])  && $_SESSION['iniciarSesion'] == 'ok') {
       </div>
     </div>
 
+  </div> -->
+
+  <div class="container-fluid">
+  <div class="list-group m-4">
+    <a href="programarCita" class="list-group-item list-group-item-action list-group-item-primary text-center">Programar citas</a>
+    <a href="historialCitas" class="list-group-item list-group-item-action list-group-item-primary text-center">Historial de citas</a>
   </div>
+  </div>
+  
 
   <!-- SECCION DE FRENA LA CURVA -->
 

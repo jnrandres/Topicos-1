@@ -1,3 +1,14 @@
+<?php
+
+if (isset($_SESSION['iniciarSesion'])  && $_SESSION['iniciarSesion'] == 'ok') {
+  echo '<script>
+  window.location = "inicio";
+  </script>';
+  return;
+}
+
+?>
+
 <div class="register-box">
   <div class="register-logo">
     <a href="#"><b>Clínica Virtual </b>CV</a>

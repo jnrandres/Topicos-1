@@ -20,9 +20,10 @@ $(document).ready(function() {
                 var i = 0;
                 for (; i < respuesta.length; i++) {
 
-                    $("#perfiles").append('<div class="perfil_medico"><div class="i_l_b derecha" style="margin-right: 10px;"><img src="vistas/img/pruebas/doctor.svg" alt="User Avatar" class="img-size-50 img-circle"></div><div class="i_l_b izquierda" ><div ><p class="nombre_doc">' + respuesta[i]['nombre_completo'] + '</p></div><div><div class="i_l_b" style="margin-right: 30px;">' + respuesta[i]['especialidad'] + '</div><div class="i_l_b"><p style="color: #0D57E9">' + respuesta[i]['id_medico'] + '<p></div></div><div><div class=""><p style="color: #0D57E9">' + respuesta[i]['universidad'] + '<p></div></div></div></div>');
+                    $("#perfiles").append('<div class="row d-flex align-items-stretch "><div class="col-12  d-flex align-items-stretch"><div class="card bg-light"><div class="card-header text-muted border-bottom-0">' + respuesta[i]['especialidad'] + '</div><div class="card-body pt-0"><div class="row"><div class="col-7"><h2 class="lead"><b>' + respuesta[i]['nombre_completo'] + '</b></h2><p class="text-muted text-sm"><b>' + respuesta[i]['universidad'] + '</b> </p><ul class="ml-4 mb-0 fa-ul text-muted"><li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Codigo:'  + respuesta[i]['codigo'] + '</li></ul></div><div class="col-5 text-center"><img src="vistas/img/pruebas/doctor.svg" alt="" class="img-circle img-fluid w-100"></div></div></div></div></div></div>');
                 }
 
+                
 
 
             }

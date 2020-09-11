@@ -1,3 +1,16 @@
+<?php
+
+if (isset($_SESSION['iniciarSesion'])  && $_SESSION['iniciarSesion'] == 'ok') {
+  
+}else{
+  echo '<script>
+  window.location = "registro";
+  </script>';
+  return;
+}
+
+?>
+
 <!-- Main content -->
 <section class="content">
 
@@ -13,7 +26,7 @@
             <th>Cita</th>
             <th>Especialidad</th>
             <th>Fecha</th>
-            <th>Id Medico</th>
+            <th>Medico</th>
           </tr>
         </thead>
         <tbody>
@@ -25,12 +38,15 @@
           $citas = ControladorCitas::ctrMostrarCitas($item, $valor);
 
           foreach ($citas as $key => $value) {
+
+            $medico = ModeloMedicos::mdlMostrarMedicos('medicos','id_medico',$value['id_medico']);
+            
             echo '
               <tr>
                 <td>' . ($key + 1) . '</td>
                 <td>' . $value['especialidad'] . '</td>
                 <td>' . $value['fecha'] . '</td>
-                <td>' . $value['id_medico'] . '</td>
+                <td>' . $medico[0]['nombre_completo'] . '</td>
               </tr>
               ';
           }
